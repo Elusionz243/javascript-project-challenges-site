@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-logo {
+    text-decoration: none;
+    font-size: 3.5rem;
+    margin: 0px 0px 0px 30px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 55px 40px 0px 0px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+navbar-link:link, navbar-link:visited {
+    color: #fff;
+}
+
+navbar-link:hover, navbar-link:active {
+    color: #03fcfc;
+}
+
+.hr-c {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #03fcfc;
+}
+
+.main-bg {
+    background-image: url('https://www.welivesecurity.com/wp-content/uploads/2013/01/014033223-html-computer-code-background-.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 90%;
+    height: 500px;
+    background-color: #2d2e2e;
+    border: 1px solid #03fcfc;
+    margin: 180px 0px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+}
+
+.main-container p {
+    display: flex;
+    font-size: 3.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #999;
+}
+
+.footer-bg {
+    background-color: #000;
+    height: 110px;
+    width: 100%;
+}
+
+.footer-containers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    border: 1px solid #03fcfc;
+    height: 90px;
+}
+
+.wrapper {
+    word-wrap: normal;
+}
+
+.neon-blue {
+    color: #03fcfc
+}
